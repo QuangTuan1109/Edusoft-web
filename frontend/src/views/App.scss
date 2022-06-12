@@ -1,0 +1,45 @@
+.logo-img {
+    display: flex;
+    background-color: antiquewhite;
+
+    h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+    }
+
+    img {
+        width: 150px;
+        margin: 5px 45px;
+    }
+}
+
+.Navbar {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #A52A2A;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #000;
+    }
+
+    .active {
+        background-color: #00008B;
+    }
+}

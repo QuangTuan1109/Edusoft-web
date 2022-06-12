@@ -1,0 +1,71 @@
+.background-home {
+  .background-img {
+    img {
+      width: 100%;
+      position: fixed;
+      z-index: -1;
+      opacity: 0.6;
+    }
+  }
+
+  .logo-img {
+    display: flex;
+    h1 {
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      font-size: 50px;
+    }
+    
+    img {
+      width: 150px;
+      margin: 5px 45px;
+    }
+  }
+
+  .input-account {
+    padding: 250px 350px;
+    margin-left: 400px;
+    position: fixed;
+
+    span {
+      font-size: large;
+      font-weight: bold;
+    }
+
+    input {
+      height: 30px;
+      width: 350px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 100px;
+      height: 30px;
+      border-radius: 5px;
+      background-color: #A52A2A;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #00008B;
+    }
+  }
+
+  .button-form {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #00008B;
+    }
+  }
+}
+
