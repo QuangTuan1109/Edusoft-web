@@ -1,0 +1,38 @@
+.wrapper-finalexam {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    margin: 10px 250px;
+
+    .info-student {
+        display: flex;
+        justify-content: center;
+        table {
+            border: 15px solid black;
+            border-radius: 20px;
+
+            td {
+                padding: 0px 80px;
+                font-weight: bold;
+
+                p {
+                    font-weight: lighter;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+
+    .info-schedule {
+        table {
+            width: 100%;
+            background-color: aliceblue;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            th, td {
+                border: 1px groove black;
+                text-align: center;
+            }
+        }
+    }
+}
