@@ -1,5 +1,6 @@
 import LoginPage from "../views/page/login/LoginPage.js";
 import HomePage from "../views/page/student/homepage/Homepage.js";
+import Timetable from "../views/page/student/timetable/Timetable.js";
 
 import logo from '../assets/images/logoIU.webp'
 
@@ -34,7 +35,10 @@ function App() {
       </header>
 
       <body>
-        <HomePage />
+       { /*<LoginPage />*/}
+        {/* <HomePage /> */}
+        <Timetable /> 
+
       </body>
     </>
   );

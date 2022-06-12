@@ -1,0 +1,81 @@
+.title {
+    text-align: center;
+    margin-top: 50px;
+    span {
+        font-weight: bold ;
+        font-size: 50px;
+    }
+}
+
+.wrapper-timetable {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    margin: 10px 250px;
+
+    .info-timetable {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 10px 0px 10px;
+
+        lablel {
+            font-size: 20px;
+        }
+
+        select {
+            margin: 5px;
+            font-size: 15px;
+        }
+    }
+
+    table {
+        background-color: aliceblue;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        th, td {
+            border: 1px groove black;
+            text-align: center;
+        }
+    }
+
+    .button-move {
+        display: flex;
+        justify-content: center;
+    }
+
+    .note {
+        .note-color {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        #square-specialize {
+            width: 15px;
+            height: 15px;
+            background: #f447ff;
+            margin: 10px;
+        }
+
+        #square-general {
+            width: 15px;
+            height: 15px;
+            background: #F5DEB3;
+            margin: 10px;
+        }
+
+        #square-political {
+            width: 15px;
+            height: 15px;
+            background: #1E90FF;
+            margin: 10px;
+        }
+
+        #square-sport {
+            width: 15px;
+            height: 15px;
+            background: #00FFFF;
+            margin: 10px;
+        }
+    }
+}
