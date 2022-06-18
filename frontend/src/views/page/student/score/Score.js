@@ -1,23 +1,11 @@
-import './exam.scss';
+import './Score.scss';
 import React from 'react'
 
-class Midtermexam extends React.Component {
+class Score extends React.Component {
     render() {
         return(
             <>
             <div className="wrapper-finalexam">
-                <div className='options'>
-                   <div>
-                        <lablel for='sem'>Chọn Học Kỳ Xem Lịch Thi</lablel>
-                        <select name='sem'>
-                            <option>Học kì 1 - Năm học 2021-2022</option>
-                            <option>Học kì 1 - Năm học 2021-2022</option>
-                            <option>Học kì 1 - Năm học 2021-2022</option>
-                            <option>Học kì 1 - Năm học 2021-2022</option>
-                        </select>
-                        <button type='button'>In TKB</button>
-                   </div>
-                </div>
                 <div className='info-student'>
                     <table>
                         <tr>
@@ -64,36 +52,29 @@ class Midtermexam extends React.Component {
                 </div>
                 <div className='info-schedule'>
                     <table>
-                        <tr>
+                        <tr bgcolor='#B0E0E6'>
                             <th>STT</th>
                             <th>Mã Môn Học</th>
                             <th>Tên Môn Học</th>
-                            <th>Ghép Thi</th>
-                            <th>Tổ Thi</th>
-                            <th>Số Lượng</th>
-                            <th>Ngày Thi</th>
-                            <th>Giờ Bắt Đầu</th>
-                            <th>Số Phút</th>
-                            <th>Phòng</th>
-                            <th>Hình Thức Thi</th>
-                            <th>Đợt Thi</th>
+                            <th>Số Tín Chỉ</th>
+                            <th>% Quá Trình</th>
+                            <th>% Giữa Kì</th>
+                            <th>% Cuối Kì</th>
+                            <th>Bài Tập</th>
+                            <th>Kiểm Tra</th>
+                            <th>Thi</th>
+                            <th>TK1(10)</th>
+                            <th>TK(10)</th>
+                            <th>TK1(CH)</th>
+                            <th>TK(CH)</th>
+                        </tr>
+                        <tr bgcolor='#C8C8C8'>
+                            <td colspan='14'>Học kỳ 1 - Năm học 2019-2020</td>
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td bgcolor='#B0E0E6'>1</td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -107,21 +88,9 @@ class Midtermexam extends React.Component {
                             <td></td>
                         </tr>
                         <tr>
-                            <td>3</td>
+                            <td bgcolor='#B0E0E6'>2</td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -135,21 +104,9 @@ class Midtermexam extends React.Component {
                             <td></td>
                         </tr>
                         <tr>
-                            <td>5</td>
+                            <td bgcolor='#B0E0E6'>3</td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td> 
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>  
-                        </tr>
-                        <tr>
-                            <td>6</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -163,7 +120,28 @@ class Midtermexam extends React.Component {
                             <td></td>
                         </tr>
                         <tr>
-                            <td>7</td>
+                            <td bgcolor='#B0E0E6'>4</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr bgcolor='#C8C8C8'>
+                            <td colspan='14'>Học kỳ 2 - Năm học 2019-2020</td>
+                        </tr>
+                        <tr>
+                            <td bgcolor='#B0E0E6'>1</td>
+                            <td></td>
+                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -177,21 +155,9 @@ class Midtermexam extends React.Component {
                             <td></td>
                         </tr>
                         <tr>
-                            <td>8</td>
+                            <td bgcolor='#B0E0E6'>2</td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -205,7 +171,7 @@ class Midtermexam extends React.Component {
                             <td></td>
                         </tr>
                         <tr>
-                            <td>10</td>
+                            <td bgcolor='#B0E0E6'>3</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -217,6 +183,52 @@ class Midtermexam extends React.Component {
                             <td></td>
                             <td></td>
                             <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td bgcolor='#B0E0E6'>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colSpan='7'>Điểm trung bình học kỳ hệ 10/100:</td>
+                            <td colSpan='7'><p>85</p></td>
+                        </tr>
+                        <tr>
+                            <td colSpan='7'>Điểm trung bình học kỳ hệ 4:</td>
+                            <td colSpan='7'><p>3.5</p></td>
+                        </tr>
+                        <tr>
+                            <td colSpan='7'>Điểm trung bình tích lũy:</td>
+                            <td colSpan='7'><p>86.7</p></td>
+                        </tr>
+                        <tr>
+                            <td colSpan='7'>Điểm trung bình tích lũy (hệ 4):</td>
+                            <td colSpan='7'><p>3.66</p></td>
+                        </tr>
+                        <tr>
+                            <td colSpan='7'>Số tín chỉ đạt:</td>
+                            <td colSpan='7'><p>24</p></td>
+                        </tr>
+                        <tr>
+                            <td colSpan='7'>Số tín chỉ tích lũy:</td>
+                            <td colSpan='7'><p>139</p></td>
+                        </tr>
+                        <tr>
+                            <td colSpan='7'>Phân loại điểm trung bình học kì:</td>
+                            <td colSpan='7'><p>Giỏi</p></td>
                         </tr>
                     </table>
                 </div>
@@ -226,4 +238,4 @@ class Midtermexam extends React.Component {
     }
 }
 
-export default Midtermexam
+export default Score

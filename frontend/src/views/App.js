@@ -1,8 +1,13 @@
-import LoginPage from "../views/page/login/LoginPage.js";
-import HomePage from "../views/page/student/homepage/Homepage.js";
-import Timetable from "../views/page/student/timetable/Timetable.js";
-import Final from "./page/student/examschedule/Finalexam.js";
-import Mid from "./page/student/examschedule/Midtermexam.js";
+// import LoginPage from "../views/page/login/LoginPage.js";
+// import HomePage from "../views/page/student/homepage/Homepage.js";
+// import Timetable from "../views/page/student/timetable/Timetable.js";
+// import Final from "./page/student/examschedule/Finalexam.js";
+// import Mid from "./page/student/examschedule/Midtermexam.js";
+// import Bill from "./page/student/bill/Bill.js";
+// import Score from "./page/student/score/Score.js";
+// import Program from "./page/student/program/EduProgram.js";
+// import Prerequisite from "./page/student/program/Prerequisite.js";
+import Profile from "./page/student/profile/Profile.js";
 
 import logo from '../assets/images/logoIU.webp'
 
@@ -24,11 +29,11 @@ function App() {
             <li><a href="#about">Lịch thi cuối kì</a></li>
             <li><a href="#about">Lịch thi giữa kì</a></li>
             <li><a href="#about">Xem học phí</a></li>
-            <li><a href="#about">Đóng tiền học phí</a></li>
+            <li><a href="#about">Sơ đồ đại học</a></li>
             <li><a href="#about">Xem điểm</a></li>
             <li><a href="#about">Xem CTĐT</a></li>
             <li><a href="#about">Xem môn TQ</a></li>
-            <li><a href="#about">Sửa thông tin cá nhân</a></li>
+            <li><a href="#about">Thông tin cá nhân</a></li>
             <li><a href="#about">Góp ý</a></li>
             <li><a href="#about">Đánh giá giảng dạy</a></li>
             <li><a href="#about">Hóa đơn điện tử</a></li>
@@ -41,7 +46,12 @@ function App() {
         {/* <HomePage /> */}
         {/* <Timetable />  */}
         {/* <Final/> */}
-        <Mid/>
+        {/* <Mid/> */}
+        {/* <Bill/> */}
+        {/* <Score/> */}
+        {/* <Program/> */}
+        {/* <Prerequisite/> */}
+        <Profile/>
 
       </body>
     </>

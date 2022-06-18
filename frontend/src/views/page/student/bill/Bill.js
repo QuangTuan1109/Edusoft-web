@@ -1,23 +1,11 @@
-import './exam.scss';
+import './Bill.scss';
 import React from 'react'
 
-class Midtermexam extends React.Component {
+class Bill extends React.Component {
     render() {
         return(
             <>
             <div className="wrapper-finalexam">
-                <div className='options'>
-                   <div>
-                        <lablel for='sem'>Chọn Học Kỳ Xem Lịch Thi</lablel>
-                        <select name='sem'>
-                            <option>Học kì 1 - Năm học 2021-2022</option>
-                            <option>Học kì 1 - Năm học 2021-2022</option>
-                            <option>Học kì 1 - Năm học 2021-2022</option>
-                            <option>Học kì 1 - Năm học 2021-2022</option>
-                        </select>
-                        <button type='button'>In TKB</button>
-                   </div>
-                </div>
                 <div className='info-student'>
                     <table>
                         <tr>
@@ -68,19 +56,17 @@ class Midtermexam extends React.Component {
                             <th>STT</th>
                             <th>Mã Môn Học</th>
                             <th>Tên Môn Học</th>
-                            <th>Ghép Thi</th>
-                            <th>Tổ Thi</th>
-                            <th>Số Lượng</th>
-                            <th>Ngày Thi</th>
-                            <th>Giờ Bắt Đầu</th>
-                            <th>Số Phút</th>
-                            <th>Phòng</th>
-                            <th>Hình Thức Thi</th>
-                            <th>Đợt Thi</th>
+                            <th>Nhóm Môn Học</th>
+                            <th>TTH</th>
+                            <th>Số Tín Chỉ</th>
+                            <th>Số Tín Chỉ Học Phần</th>
+                            <th>Học Phí</th>
+                            <th>Miễn Giảm</th>
+                            <th>Phải Đóng</th>
+                            <th>Trạng Thái</th>
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -104,11 +90,9 @@ class Midtermexam extends React.Component {
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -132,91 +116,12 @@ class Midtermexam extends React.Component {
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
                         </tr>
                         <tr>
-                            <td>5</td>
+                            <td colspan="5">Tổng Cộng</td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td> 
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>  
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td colspan="4"></td>
                         </tr>
                     </table>
                 </div>
@@ -226,4 +131,4 @@ class Midtermexam extends React.Component {
     }
 }
 
-export default Midtermexam
+export default Bill
