@@ -3,6 +3,7 @@ import express from 'express'
 import morgan from 'morgan'
 import cors from 'cors'
 import './config/connect.js'
+import user from './route/user.js'
 
 const app = express()
 const port = process.env.PORT || 8081
@@ -19,6 +20,9 @@ app.get('/', (req, res, next) => {
         message: 'Server is OK!'
     })
 })
+
+//Connect route
+app.use('/v1/api/users',user)
 
 // Catch 404 Errors and forward them to error handler
 app.use((req, res, next) => {
