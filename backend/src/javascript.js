@@ -2,6 +2,7 @@ import 'dotenv/config'
 import express from 'express'
 import morgan from 'morgan'
 import cors from 'cors'
+import './config/connect.js'
 
 const app = express()
 const port = process.env.PORT || 8081
