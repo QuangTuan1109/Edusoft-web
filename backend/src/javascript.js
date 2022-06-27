@@ -3,7 +3,9 @@ import express from 'express'
 import morgan from 'morgan'
 import cors from 'cors'
 import './config/connect.js'
+
 import user from './route/user.js'
+import courses from './route/courses.js'
 
 const app = express()
 const port = process.env.PORT || 8081
@@ -23,6 +25,7 @@ app.get('/', (req, res, next) => {
 
 //Connect route
 app.use('/v1/api/users',user)
+app.use('/v1/api/courses',courses)
 
 // Catch 404 Errors and forward them to error handler
 app.use((req, res, next) => {
