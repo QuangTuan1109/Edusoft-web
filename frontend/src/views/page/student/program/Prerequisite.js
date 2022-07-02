@@ -7,18 +7,26 @@ class Prerequisite extends React.Component {
             <div className="wrapper">
                 <div className='chosen-radio'>
                     <div className='subject'>
-                        <input type="radio" name="prerequisite-sub"/>
-                        <label for="html">Môn yêu cầu tiên quyết</label>
-                        <input type="radio" name="prerequisite-sub"/>
-                        <label for="html">Môn yêu cầu tiên quyết</label>
-                        <input type="radio" name="prerequisite-sub"/>
-                        <label for="html">Môn yêu cầu tiên quyết</label>
-                    </div>
-                    <div className='Major'>
-                        <label for='major'>Ngành: </label>
-                        <select id='major'>
-                            <option>Information Technology</option>
-                        </select>
+                        <div>
+                            <input type="radio" name="prerequisite-sub"/>
+                            <label for="html">Môn yêu cầu tiên quyết</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="prerequisite-sub"/>
+                            <label for="html">Môn yêu cầu tiên quyết</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="prerequisite-sub"/>
+                            <label for="html">Môn yêu cầu tiên quyết</label>
+                        </div>
+                        <div className='Major'>
+                            <div>
+                                <label for='major'>Ngành: </label>
+                                <select id='major'>
+                                    <option>Information Technology</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className='info-schedule'>

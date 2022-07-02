@@ -20,26 +20,11 @@
     row-gap: 30px;
     margin: 10px 250px;
 
-    .Major {
-        display: flex;
-        justify-content: center;
-
-        #major {
-            font-size: 15px;
-            width: 300px;
-            height: 30px;
-        }
-
-        label {
-            margin: 5px;
-            font-weight: bold;
-        }
-    }
-
+    
     .chosen-radio{
-        display: flex;
-        justify-content: space-around;
-        padding: 50px;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 10px;
         border: 2px solid black;
         background-color: aliceblue;
 
@@ -48,9 +33,30 @@
 
             label {
                 margin: 5px;
-                font-size: 20px;
+                font-size: 15px;
             }
         }
+    }
+
+    .Major {
+        margin-left: 50px;
+        
+        #major {
+            font-size: 15px;
+            width: 200px;
+            height: 20px;
+        }
+
+        label {
+            margin: 5px;
+            font-weight: bold;
+        }
+    }
+
+    .options-list {
+        padding: 5px;
+        background-color: antiquewhite;
+        opacity: 0.8;
     }
 
     .info-student {

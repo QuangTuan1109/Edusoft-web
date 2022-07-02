@@ -6,7 +6,7 @@ class Finalexam extends React.Component {
             <>
             <div className="wrapper">
                 <div className='options'>
-                   <div>
+                   <div className="options-list">
                         <lablel for='sem'>Chọn Học Kỳ Xem Lịch Thi</lablel>
                         <select name='sem'>
                             <option>Học kì 1 - Năm học 2021-2022</option>
