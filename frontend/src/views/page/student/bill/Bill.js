@@ -1,4 +1,3 @@
-import './Bill.scss';
 import React from 'react'
 
 class Bill extends React.Component {

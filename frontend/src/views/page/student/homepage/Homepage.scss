@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper-homepage {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 30px;
@@ -9,8 +9,6 @@
     table {
         background-color: #fff;
         border-bottom: 2px solid gray;
-        width: 100%;
-        height: 100%;
 
         tr {
             display: flex;
@@ -22,7 +20,7 @@
             }
     
             td {
-                padding: 20px 0px 0px 20px;
+                padding: 18px 0px 0px 20px;
                 font-weight: bold;
                 font-size: large;
 

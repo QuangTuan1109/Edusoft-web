@@ -1,11 +1,10 @@
-import './exam.scss';
 import React from 'react'
 
 class Midtermexam extends React.Component {
     render() {
         return(
             <>
-            <div className="wrapper-finalexam">
+            <div className="wrapper">
                 <div className='options'>
                    <div>
                         <lablel for='sem'>Chọn Học Kỳ Xem Lịch Thi</lablel>

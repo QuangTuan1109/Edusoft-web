@@ -5,7 +5,7 @@ class Score extends React.Component {
     render() {
         return(
             <>
-            <div className="wrapper-finalexam">
+            <div className="wrapper">
                 <div className='info-student'>
                     <table>
                         <tr>

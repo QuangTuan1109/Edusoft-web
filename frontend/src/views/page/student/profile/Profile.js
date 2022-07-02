@@ -8,7 +8,7 @@ class Profile extends React.Component {
     render() {
         return(
             <>
-            <div className="wrapper-finalexam">
+            <div className="wrapper-profile">
                 <div className='grid-item'>
                     <div className='logo-title'>
                         <img src={logo} alt="IUbackground"/>

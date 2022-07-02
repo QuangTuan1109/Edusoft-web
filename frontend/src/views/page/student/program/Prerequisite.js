@@ -1,11 +1,10 @@
-import './EduProgram.scss';
 import React from 'react'
 
 class Prerequisite extends React.Component {
     render() {
         return(
             <>
-            <div className="wrapper-finalexam">
+            <div className="wrapper">
                 <div className='chosen-radio'>
                     <div className='subject'>
                         <input type="radio" name="prerequisite-sub"/>

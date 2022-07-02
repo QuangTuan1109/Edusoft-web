@@ -10,7 +10,7 @@ import React from 'react'
 class Homepage extends React.Component {
   render() {
     return (
-        <div className='wrapper'>
+        <div className='wrapper-homepage'>
             <div className='general-info'>
                 <table>
                     <tr>

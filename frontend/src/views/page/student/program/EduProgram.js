@@ -1,11 +1,10 @@
-import './EduProgram.scss';
 import React from 'react'
 
 class EduProgram extends React.Component {
     render() {
         return(
             <>
-            <div className="wrapper-finalexam">
+            <div className="wrapper">
                 <div className='Major'>
                     <label for='major'>Ngành: </label>
                     <select id='major'>
